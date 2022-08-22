@@ -1,0 +1,41 @@
+////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////           INSTRUCCIONES        /////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Para correr los codigos, asegurese de tener los siguientes archivos en el mismo directorio.
+
+dataexp (datos experimentales discretizados)
+dataexp2 (datos experimentales reales)
+fedbatch (caudal discretizado)
+paramideal3param.txt (parametros del modelo encontrados)
+alimideal.txt (Condiciones optimas de operacion)
+
+/////////////////////////////////////////Archivos de codigo/////////////////////////////////////////////
+
+--------------------------Para la obtencion de los parametros del modelo----------------------------------
+mAb.m
+main.m
+opti.m (Este es el archivo que se debe correr para encontrar los parametros)
+
+Para unicamente graficar
+ploty.m
+
+--------------------------Para la optimizacion de caudal y sustrato de entrada---------------------------
+mAb_opti.m
+costf.m 
+opti_q.m (Este es el archivo que se debe correr para optimizar el proceso)
+
+Para unicamente graficar
+plot_opti.m
+
+-------------------------Para la simulacion de membrana------------------------------------------------
+simviral.m
+main_viral.m (Archivo para correr)
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////Para dudas, escribir correo para una cita a://///////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+aabravob@unal.edu.co 
+lauhernandezmol@unal.edu.co 
+anvasquezre@unal.edu.co 
